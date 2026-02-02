@@ -4,16 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Moirai+One&family=Original+Surfer&family=Zen+Antique+Soft&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculator</title>
   </head>
   <body>
     <main>
       <div class="calculator-container">
-        <div class="result-window"></div>
-        <div class="modes">
-          <div class="regular-mode"></div>
-          <div class="math-problems-mode"></div>
-          <div class="discovery-mode"></div>
+        <div class="result-window">
+          <div class="calc-text">
+            <p name="user-input" id="user-input">0</p>
+          </div>
+        </div>
+        <div class="modes-keys">
+          <button type="button" class="key-mode regular mode">C</button>
+
+          <button type="button" class="key-mode math-problems mode">C</button>
+
+          <button type="button" class="key-mode discovery mode">C</button>
+        </div>
+        <div class="calc-keys">
+          <button type="button" class="operations key">C</button>
+          <button type="button" class="operations key">%</button>
+          <button type="button" class="operations key">√</button>
+          <button type="button" class="operations key">ON/OFF</button>
+          <button type="button" class="numbers key">7</button>
+          <button type="button" class="numbers key">8</button>
+          <button type="button" class="numbers key">9</button>
+          <button type="button" class="operations key">/</button>
+          <button type="button" class="numbers key">4</button>
+          <button type="button" class="numbers key">5</button>
+          <button type="button" class="numbers key">6</button>
+          <button type="button" class="operations key">*</button>
+          <button type="button" class="numbers key">1</button>
+          <button type="button" class="numbers key">2</button>
+          <button type="button" class="numbers key">3</button>
+          <button type="button" class="operations key">+</button>
+          <button type="button" class="numbers key">0</button>
+          <button type="button" class="numbers key">.</button>
+          <button type="button" class="operations key">=</button>
+          <button type="button" class="operations key">-</button>
         </div>
       </div>
     </main>
